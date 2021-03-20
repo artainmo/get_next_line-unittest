@@ -1,4 +1,4 @@
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 #include <fcntl.h>
 #include <stdio.h>
 
@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 		if (argv[1][0] == '1')
 			fd = open("text.txt", O_RDONLY);
 		if (argv[1][0] == '2')
-			fd = open("text2.txt", O_RDONLY);
+			fd = open("text1.txt", O_RDONLY);
 		if (argv[1][0] == '3')
 			fd = open("textv.txt", O_RDONLY);
 		if (argv[1][0] == '4')
