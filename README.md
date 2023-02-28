@@ -1,6 +1,6 @@
 # get_next_line-unittest
 
-A unit-test written in C for 42 school's [get_next_line](https://github.com/artainmo/get_next_line) project, being a C project with limited access to funtions wherein we need to read one line at a time from a file.
+A unit-test written in C for 42 school's [get_next_line](https://github.com/artainmo/get_next_line) project, being a C project with limited access to functions wherein we need to read one line at a time from a file descriptor.
 
 # Use
 Place the 'get_next_line_bonus.h' and 'get_next_line_bonus.c' files in the root directory of this project. If there is no bonus, use 'get_next_line.h' and 'get_next_line.c' instead and indicate it at top 'main.c'.
